@@ -18,7 +18,17 @@
             }
           ]
         }
-      }
+      },
+      "dependsOn": []
+    }
+  },
+  "auth": {
+    "amplifyhomes": {
+      "service": "Cognito",
+      "serviceType": "imported",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": true
     }
   }
 }

@@ -1,4 +1,34 @@
 {
+  "deve": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifyhomes-deve-74916-authRole",
+      "UnauthRoleArn": "arn:aws:iam::556126912734:role/amplify-amplifyhomes-deve-74916-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::556126912734:role/amplify-amplifyhomes-deve-74916-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-amplifyhomes-deve-74916-deployment",
+      "UnauthRoleName": "amplify-amplifyhomes-deve-74916-unauthRole",
+      "StackName": "amplify-amplifyhomes-deve-74916",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:556126912734:stack/amplify-amplifyhomes-deve-74916/bc0a6200-af34-11ec-a283-06f309d9180f",
+      "AmplifyAppId": "debk2u36gee69"
+    },
+    "categories": {
+      "auth": {
+        "amplifyhomes": {
+          "userPoolId": "ap-northeast-1_5XRLsH79x",
+          "userPoolName": "passwordless-email-auth-test-3",
+          "webClientId": "56gnom24qdhcf7nua57orkgabd",
+          "nativeClientId": "56gnom24qdhcf7nua57orkgabd",
+          "identityPoolId": "ap-northeast-1:a076ed1e-c379-4ac7-b7b5-1da118fd0a0d",
+          "identityPoolName": "testTokyo",
+          "allowUnauthenticatedIdentities": true,
+          "authRoleArn": "arn:aws:iam::556126912734:role/Cognito_testTokyoAuth_Role",
+          "authRoleName": "Cognito_testTokyoAuth_Role",
+          "unauthRoleArn": "arn:aws:iam::556126912734:role/Cognito_testTokyoUnauth_Role",
+          "unauthRoleName": "Cognito_testTokyoUnauth_Role"
+        }
+      }
+    }
+  },
   "staging": {
     "awscloudformation": {
       "AuthRoleName": "amplify-amplifyhomes-staging-40507-authRole",
